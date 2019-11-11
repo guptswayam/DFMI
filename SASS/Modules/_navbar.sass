@@ -1,0 +1,53 @@
+.topnav
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 200
+    .nav-left
+        background-color: $white
+    .nav-right
+        background-color: $color-orange
+    .nav-list
+        padding: 42px 0px 25px
+        padding-left: 0px
+    ul
+        list-style: none
+        display: flex
+        justify-content: space-around
+        a
+            color: $white
+            font-weight: 600
+            letter-spacing: 1px
+            text-transform: uppercase
+            &:hover
+                color: darkblue
+                text-decoration: none
+                
+.dropdownicon
+    display: none
+    &:hover
+        text-decoration: none
+    
+.dropdown .dropdown-menu
+    width: 240px
+    .dropdown-item
+        white-space: normal     
+.nav-link
+    padding: 0px
+.nav-item.dropdown .dropdown-menu .dropdown-item
+    color: $black
+    padding: 15px
+    &:hover
+        color: darkblue
+        text-decoration: none
+.nav-list-responsive
+    background-color: $color-orange
+    padding: 35px 0px 18px
+    padding-left: 15px
+    ul
+        flex-direction: column
+        li
+            margin-top: 10px
+            margin-bottom: 10px
+            border-bottom: 1px solid $white
